@@ -1,10 +1,18 @@
 # hit_count_headspace
 a scalable logger for hit logs. the app is only for the /log route that allows caller to indicate to the server to log a hit. For simplicity it's at the GET route, but easily switched to PUT if desired (see routes/log.js). 
 
-<b>Running</b><br>
-Start with a system where node.js is installed. Download the project and cd into hit_count_headspace and execute
+<b>Initial set up</b><br>
+Start with a system where node.js is installed. Download the project and cd into hit_count_headspace and execute the following to get all depnediencies installed
 
-<pre>npm-init</pre>
+<pre>
+  npm-init
+</pre>
+
+<b>Running</b><br>
+Execute 
+<pre>
+  npm start
+</pre>
 
 This will start a server at http://localhost:3000 <br>
 
